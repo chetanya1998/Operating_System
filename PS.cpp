@@ -44,7 +44,7 @@ int main()
     total=0;
     cout<<"\nProcess\t Burst Time\t Waiting Time\t Turnaround Time";
     for(i=0;i<n;i++){
-    	tat[i]=bt[i]+wt[i];
+    	tat[i]=bt[i]+wt[i];0
     	total+=tat[i];
     	cout<<"\nP["<<p[i]<<"]\t\t"<<wt[i]<<"\t\t\t"<<tat[i];
     }

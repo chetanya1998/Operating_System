@@ -25,7 +25,7 @@ int main(){
 		tat[i]=bt[i]+wt[i];
 		avwt+=wt[i];
 		avtat+=tat[i];
-		cout<<"\nP["<<i+1<<"]"<<"\t\t"<<bt[i]<<"\t\t"<<wt[i]<<"\t\t"<<tat[i];
+		cout<<"\nP["<<i+1<<"]"<<"\t"<<bt[i]<<"\t"<<wt[i]<<"\t\t"<<tat[i];
 	}
 	avwt/=i;
 	avtat/=i;
